@@ -48,9 +48,11 @@ const sadsad = document.getElementById('sadsad');
 
 
 
+
 no.addEventListener("click", function (){
 			btt12.style.opacity= "1";
 			no.style.opacity= "0";
+			
 									
 });
 
@@ -133,7 +135,7 @@ btt3.addEventListener("click", function (){
 		 bbtt9.style.opacity= "1";
 		 
 		 
-							
+		 
 });
 
 

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 body{
-				background: grey;
+				background: white;
 				font-family: Poppins;
 }
 
@@ -19,7 +19,7 @@ body{
 }
 
 .images1{
-				position: absolute;
+				position: absolute ();
 				top: 0;
 				display: grid;
 				grid-template-columns: 1fr 1fr;
@@ -29,14 +29,14 @@ body{
 }
 
 .group1{
-				display: grid;
-				grid-template-columns: 1fr 1fr 1fr ;
-				gap:2em;
-				margin-left: 1em;
-				margin-right: 1em;
-				z-index: 55;
-			margin-top: 2em;
-			opacity:;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	gap:2em;
+	margin-left: 1em;
+	margin-right: 1em;
+	z-index: 55;
+margin-top: 2em;
+opacity:;
 }
 
 .group1 button{
@@ -47,11 +47,11 @@ body{
 				font-weight: bold;
 				font-family: Poppins;
 	    z-index: 4444;
-	    border: 2px solid red;
+	    border: 2px solid rgb(18, 5, 201);
 }
 .group1 button:hover{
 				background: white;
-				border: 2px solid red;
+				border: 2px solid black;
 }
 
 .ask{
@@ -71,10 +71,12 @@ body{
 }
 
 .btn{
+	
 				display: flex;
 				justify-content:center;
 				align-items: center;
-				gap: 2em;				
+				gap: 2em;	
+				
 }
 
 #btn1{
@@ -84,16 +86,20 @@ body{
 				padding-bottom:5px ;
 				font-weight: bold;
 				font-family: Poppins;
-				border: 2px solid red;
+				border: 2px solid black;
 }
 #btn1:hover{
 				background: white;
-				border: 2px solid blue;
+				border: 2px solid black;
 }
 #btn2:hover{
 				background: white;
-				border: 2px solid blue;
+				border: 2px solid black;
 }
+#btn13:hover{
+	background: white;
+	border: 2px solid rgb(0, 255, 0);
+	 }
 #btn2{
 				padding-left: 30px;
 				padding-right: 30px;
@@ -101,18 +107,47 @@ body{
 				padding-bottom:5px ;
 				font-weight: bold;
 				font-family: Poppins;
-				border: 2px solid Grey;
+				border: 2px solid rgb(0, 0, 0);
+
+			}
+
+			#btn13{
+							padding-left: 40px;
+							padding-right: 40px;
+							padding-top: 5px ;
+							padding-bottom:5px ;
+							font-weight: bold;
+							font-family: Poppins;
+							border: 2px solid rgb(0, 0, 0);
+							
+			}
 				
-	
+			.love{
+				text-shadow: 2px 2px #000000;
+				font-size: 20px;
+				margin-bottom: 2em;
+				font-weight: 700;
+				color: rgb(245, 175, 245);
 }
 
 .crush{
-				font-size: 25px;
+				font-size: 50px;
 				margin-bottom: 2em;
-				font-weight: bold;
-				color: grey;
-    }
-#hands{
+				font-weight: bolder;
+				color: rgb(189, 231, 0);}
+				
+				#wala{
+					
+					width: 50px;
+				position: absolute;
+				top: 12em;
+				left: 4em;
+				animation: bounce2 2s ease infinite;
+				opacity: 0;
+
+				}
+
+#hands {
 				width: 50px;
 				position: absolute;
 				top: 12em;
@@ -151,12 +186,6 @@ body{
 				opacity: 0;
 }
 
-
-@keyframes bounce2 {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-20px);}
-	60% {transform: translateY(-15px);}
-}
 
 /*BUTTONS OPACITY*/
 
@@ -237,6 +266,41 @@ body{
 
 .fff{
 display: flex;
-				justify-content: space-around;
-				align-items: baseline;
+				justify-content: center;
+				align-items: center;
 }
+
+.typewriter h1 {
+	text-shadow: 2px 2px #000000;
+	color: rgb(0, 255, 51);
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid rgb(0, 240, 60); /* The typwriter cursor */
+	white-space: nowrap;/* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+	  typing 3.5s steps(40, end),
+	  blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: orange; }
+  }
+
+  #point {
+	width: 50px;
+	position: absolute();
+	top: 12em;
+	left: 4em;
+	animation: bounce2 2s ease infinite;
+	opacity: 0;
+}
+ 
