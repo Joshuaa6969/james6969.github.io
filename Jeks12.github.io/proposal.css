@@ -19,7 +19,7 @@ body{
 }
 
 .images1{
-				position: absolute ();
+				position: absolute;
 				top: 0;
 				display: grid;
 				grid-template-columns: 1fr 1fr;
@@ -29,14 +29,14 @@ body{
 }
 
 .group1{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr ;
-	gap:2em;
-	margin-left: 1em;
-	margin-right: 1em;
-	z-index: 55;
-margin-top: 2em;
-opacity:;
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr ;
+				gap:2em;
+				margin-left: 1em;
+				margin-right: 1em;
+				z-index: 55;
+			margin-top: 2em;
+			opacity:;
 }
 
 .group1 button{
@@ -47,7 +47,7 @@ opacity:;
 				font-weight: bold;
 				font-family: Poppins;
 	    z-index: 4444;
-	    border: 2px solid rgb(18, 5, 201);
+	    border: 2px solid red;
 }
 .group1 button:hover{
 				background: white;
@@ -71,12 +71,10 @@ opacity:;
 }
 
 .btn{
-	
 				display: flex;
 				justify-content:center;
 				align-items: center;
-				gap: 2em;	
-				
+				gap: 2em;				
 }
 
 #btn1{
@@ -98,56 +96,42 @@ opacity:;
 }
 #btn13:hover{
 	background: white;
-	border: 2px solid rgb(0, 255, 0);
+	border: 2px solid rgb(225, 250, 0);
+
 	 }
+
+	 #btn13{padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 5px ;
+		padding-bottom:5px ;
+		font-weight: bold;
+		font-family: Poppins;
+		border: 2px solid rgb(0, 0, 0);}
+	 
+
+
+		
+		
 #btn2{
+
 				padding-left: 30px;
 				padding-right: 30px;
 				padding-top: 5px ;
 				padding-bottom:5px ;
 				font-weight: bold;
 				font-family: Poppins;
-				border: 2px solid rgb(0, 0, 0);
-
-			}
-
-			#btn13{
-							padding-left: 40px;
-							padding-right: 40px;
-							padding-top: 5px ;
-							padding-bottom:5px ;
-							font-weight: bold;
-							font-family: Poppins;
-							border: 2px solid rgb(0, 0, 0);
-							
-			}
+				border: 2px solid red;
 				
-			.love{
-				text-shadow: 2px 2px #000000;
-				font-size: 20px;
-				margin-bottom: 2em;
-				font-weight: 700;
-				color: rgb(245, 175, 245);
+	
 }
 
 .crush{
-				font-size: 50px;
+				font-size: 25px;
 				margin-bottom: 2em;
-				font-weight: bolder;
-				color: rgb(189, 231, 0);}
-				
-				#wala{
-					
-					width: 50px;
-				position: absolute;
-				top: 12em;
-				left: 4em;
-				animation: bounce2 2s ease infinite;
-				opacity: 0;
-
-				}
-
-#hands {
+				font-weight: bold;
+				color: red;
+}
+#hands{
 				width: 50px;
 				position: absolute;
 				top: 12em;
@@ -186,6 +170,12 @@ opacity:;
 				opacity: 0;
 }
 
+
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-20px);}
+	60% {transform: translateY(-15px);}
+}
 
 /*BUTTONS OPACITY*/
 
@@ -303,4 +293,17 @@ display: flex;
 	animation: bounce2 2s ease infinite;
 	opacity: 0;
 }
- 
+				
+.love{
+	text-shadow: 2px 2px #000000;
+	font-size: 20px;
+	margin-bottom: 2em;
+	font-weight: 700;
+	color: rgb(245, 175, 245);
+
+}
+
+#btn13:hover{
+	background: white;
+	border: 2px solid rgb(251, 255, 0);
+	 }
