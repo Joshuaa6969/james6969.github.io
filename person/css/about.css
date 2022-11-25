@@ -1,0 +1,382 @@
+@import url("fonts.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("micons/micons.css");
+
+.me4{
+ 
+    position: relative; 
+  top: -220px;
+    padding-right: 40rem;
+    height: 28rem;
+    width: 20rem;
+    ;
+}
+.div
+{
+ background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#link3{
+
+position: relative;
+    padding-left: 30rem;
+    padding-top: 1rem;
+    top: -200px;
+
+}
+.div:hover,
+.div:focus {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+#link2{
+
+position: relative;
+    padding-right: 40rem;
+    padding-top: 1rem;
+    top: -200px;
+
+}
+  
+#link{
+
+position: relative;
+    padding-left: 40rem;
+    padding-top: 1rem;
+    top: -225px;
+
+}
+  
+
+.cats {
+     position: relative; 
+  top: -220px;
+    padding-right: 30rem;
+    height: 20rem;
+    width: 20rem;
+        width: 35rem;
+    
+   
+}
+h1 {
+    color: #f5ff00;
+    text-shadow: 2px 3px #000000;
+}
+.me3{
+ 
+    position: relative; 
+  top: -220px;
+    padding-left: 30rem;
+    height: 28rem;
+    width: 20rem;
+        width: 35rem;
+ 
+ 
+}
+
+
+
+.para3 {
+     padding-left: 1px;
+    margin-top: 15rem;
+    margin-right: 40rem;
+   font-size: 3rem;
+     text-shadow: 2px 3px #760000;
+
+    
+    
+}
+
+.me2{
+ 
+    position: relative; 
+  top: -220px;
+    padding-right: 40rem;
+    height: 20rem;
+    width: 28rem;
+    ;
+}
+
+
+.para2 {
+    padding-right: 1px;
+    margin-top: 15rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+        text-shadow: 2px 3px #760000;
+}
+hr {
+  border-top: 1px dashed #c41d1d;
+}
+
+.para {
+    padding-left: 1px;
+    margin-top: 15rem;
+    margin-right: 30rem;
+        text-shadow: 2px 3px #760000;
+    font-size: 20px;
+   
+}
+#me, link{
+ 
+    position: relative; 
+  top: -250px;
+    padding-left: 40rem;
+    height: 20rem;
+    width: 20rem;
+ text-align: right;
+    display: inline-block;
+    
+
+
+    
+}
+th {
+    color:#ff0000;
+        text-shadow: 2px 3px #000000;
+    font-weight: 50rem;
+}
+
+.tables{
+     margin-left: auto;
+  margin-right: auto;
+}
+
+
+table, th, td {
+  border:3px solid #000000;
+    border-color: #764f9d;
+     text-shadow: 2px 3px #000000;
+}
+    
+h3{
+display: flex;
+padding-left: 50px;
+padding-top: 5px;
+width: 100%;
+height: 110%;
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
+text-shadow: 1px 1px #000000;
+font-size: 40px;
+  color: #b92d2d;
+    
+}
+
+.unit-20 {
+   display: flex;
+	top: 10rem;
+	left: 10rem;
+	width: 100%;
+	height: 100%;
+	
+
+    
+}
+insertro-overlay {
+position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #111111;
+	opacity: .50;
+}
+body, html {
+    background: #151515;
+	font-family: "lora-regular", serif;
+	font-size: 1rem;
+	line-height: 1rem;
+	color: #ffffff;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(68, 70, 1, 0.5), rgba(167, 12, 214, 0.1)), url(../images/deer.jpg) no-repeat center bottom;
+   
+    	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	min-height: 720px;
+	display: table;
+	position: relative;
+	text-align: center;
+
+
+    
+    
+} 
+ 
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display SC", serif;
+  color: #333333; }
+
+a,p,li {
+  font-family: "Lato", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  line-height: 1.75em; 
+ text-shadow: 2px 3px #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+
+.container {
+  margin: auto;
+  max-width: 662px;
+  padding: 0 20px; 
+}
+
+.section.second {
+  margin-bottom: 90px; }
+.section .container {
+  position: relative; }
+  .section .container:after {
+    position: absolute;
+    content: url(../img/separator.png);
+    left: 20px; }
+  .section .container h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative; }
+
+.intro {
+  padding: 95px 0px 70px 0px;
+  overflow-x: hidden; }
+  .intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 80px; }
+  .intro .wrap {
+    margin: 30px 0px; }
+  .intro h1:before {
+    position: absolute;
+    left: -220px;
+    top: -150px;
+    font-size: 270px;
+    z-index: -1;
+    color: #f4f4f4; }
+  .intro h1 span {
+    font-size: 47px; }
+
+
+.typewriter h3 {
+
+	color: rgb(240, 50, 50);
+	overflow: hidden; 
+	border-right: .15em solid rgb(0, 240, 60);
+	white-space: nowrap;
+	margin: 0 auto; 
+	letter-spacing: .15em; 
+	animation: 
+	  typing 3.5s steps(40, end),
+	  blink-caret .75s step-end infinite;
+    padding-top: 3rem;
+    text-shadow: 2px 3px #4d0000;
+
+  }
+  
+  
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+ 
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	% { border-color: orange; }
+      height: 5px;
+      width: 10%
+
+  }
+
+  #point {
+	width: 1px;
+	position: absolute();
+	top: 12em;
+	left: 4em;
+	animation: bounce2 2s ease infinite;
+	opacity: 0;
+}
+				
+.love{
+	text-shadow: 2px 2px #000000;
+	font-size: 2px;
+	margin-bottom: 2em;
+	font-weight: 700;
+	color: rgb(245, 175, 245);
+
+}
+
+#btn13:hover{
+	background: white;
+	border: 2px solid rgb(0, 255, 0);
+    
+    
+
+	 }
+.soc{
+     margin-top: 20rem;
+    
+    
+}
+
+.intro-social {
+	display: block;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 7.2rem;
+	font-size: 3.3rem;
+	margin: 0;
+	padding: 0;
+   
+}
+.intro-social li {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 0;
+ 
+}
+.intro-social li a, .intro-social li a:visited {
+	color: #FFFFFF;
+}
+.intro-social li a:hover, .intro-social li a:focus {
+	color: #cc005f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
